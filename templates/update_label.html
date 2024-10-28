@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Label Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/update_label_styles.css') }}">
+</head>
+<body>
+    <h1 class="title">NoSQL Database</h1>
+    <h1 class="main">Edit Label Data within Database</h1>
+    <div class="page_container">
+        <div class="page"><a class = "label" href="/home">Home Page</a></div>
+        <div class="page"><a class = "label" href="/">Upload Page</a></div>
+        <div class="page"><a class = "label" href="/search_BERT">BERT Search</a></div>
+        <div class="page"><a class = "label" href="/search">Keyword Search</a></div>
+        <div class="page"><a class = "label" href="/search_label">Label Search</a></div>
+        <div class="page"><a class = "label" href="/display">View Data</a></div>
+        <div class="page"><a class = "label" href="/display_label">View Label Data</a></div>
+    </div>
+    <form action="/edit_label/{{label_item._id}}" method="post">
+        <label for="label">label:</label> 
+        <input type="text" name="label" value="{{ label_item.label }}">
+        <br>
+        <label for="text">text:</label>
+        <input type="text" class="large_input" name="text" value="{{ label_item.text }}">
+        <br>
+        <button type="submit">Update</button>
+    </form>
+    <br>
+    <a href="/display_label">Back to Label Data</a>
+</body>
+</html>

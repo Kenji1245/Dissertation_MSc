@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Label Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/label_search_styles.css') }}">
+</head>
+<body>
+    <h1 class="title">NoSQL Database</h1>
+    <h1 class="main">Search Label Database using Keyword Search</h1>
+    <div class="page_container">
+        <div class="page"><a class = "label" href="/home">Home Page</a></div>
+        <div class="page"><a class = "label" href="/">Upload Page</a></div>
+        <div class="page"><a class = "label" href="/search_BERT">BERT Search</a></div>
+        <div class="page"><a class = "label" href="/search">Keyword Search</a></div>
+        <div class="page"><a class = "label">Label Search</a></div>
+        <div class="page"><a class = "label" href="/display">View Data</a></div>
+        <div class="page"><a class = "label" href="/display_label">View Label Data</a></div>
+    </div>
+    <form action="/search_label" method="post">
+        <label for="field">Search Field:</label>
+        <select name="field">
+            <option value="label">label</option>
+            <option value="text">text</option>
+        </select>
+        <br><br>
+        <label for="query">Search Query:</label>
+        <input type="text" name="query" id="query">
+        <br><br>
+        <button type="submit">Search</button>
+    </form>
+    <br>
+    {% if search_data %}
+    <table>
+        <thead>
+            <tr>
+                <th>label</th>
+                <th>text</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for search_item in search_data %}
+            <tr>
+                <td>{{ search_item.label }}</td>
+                <td>{{ search_item.text }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</body>
+</html>

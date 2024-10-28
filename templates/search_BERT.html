@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/BERT_styles.css') }}">
+</head>
+<body>
+    <h1 class="title">NoSQL Database</h1>
+    <h1 class="main">Search Database using BERT</h1>
+    <div class="page_container">
+        <div class="page"><a class = "label" href="/home">Home Page</a></div>
+        <div class="page"><a class = "label" href="/">Upload Page</a></div>
+        <div class="page"><a class = "label">BERT Search</a></div>
+        <div class="page"><a class = "label" href="/search">Keyword Search</a></div>
+        <div class="page"><a class = "label" href="/search_label">Label Search</a></div>
+        <div class="page"><a class = "label" href="/display">View Data</a></div>
+        <div class="page"><a class = "label" href="/display_label">View Label Data</a></div>
+    </div>
+    <form action="/search_BERT" method="post">
+        <br><br>
+        <label for="query">Search Query:</label>
+        <input type="text" name="query" id="query">
+        <br><br>
+        <form action="/export" method="post">
+            <button type="submit">Search</button>
+        </form>
+    </form>
+
+    <br>
+    {% if data %}
+    <table>
+        <thead>
+            <tr>
+                <th>info1</th>
+                <th>info2</th>
+                <th>info3</th>
+                <th>post_id</th>
+                <th>main_post</th>
+                <th>post_num</th>
+                <th>date</th>
+                <th>user</th>
+                <th>title</th>
+                <th>text1</th>
+                <th>similarity_score</th> 
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr>
+                <td>{{ item.info1 }}</td>
+                <td>{{ item.info2 }}</td>
+                <td>{{ item.info3 }}</td>
+                <td>{{ item.post_id }}</td>
+                <td>{{ item.main_post }}</td>
+                <td>{{ item.post_num }}</td>
+                <td>{{ item.date }}</td>
+                <td>{{ item.user }}</td>
+                <td>{{ item.title }}</td>
+                <td>{{ item.text1 }}</td>
+                <td>{{ item.similarity_score }}</td>
+                <td>
+                    <a href="/edit/{{item._id}}">Edit</a>
+                </td>
+                <td>
+                    <button type="submit">Export file</button>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+    <a href="/display">Back to Data</a>
+</body>
+</html>

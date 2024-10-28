@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/update_styles.css') }}">
+
+</head>
+<body>
+    <h1 class="title">NoSQL Database</h1>
+    <h1 class="main">Edit Data within Database</h1>
+    <div class="page_container">
+        <div class="page"><a class = "label" href="/home">Home Page</a></div>
+        <div class="page"><a class = "label" href="/">Upload Page</a></div>
+        <div class="page"><a class = "label" href="/search_BERT">BERT Search</a></div>
+        <div class="page"><a class = "label" href="/search">Keyword Search</a></div>
+        <div class="page"><a class = "label" href="/search_label">Label Search</a></div>
+        <div class="page"><a class = "label" href="/display">View Data</a></div>
+        <div class="page"><a class = "label" href="/display_label">View Label Data</a></div>
+    </div>
+    <form action="/edit/{{item._id}}" method="post">
+        <label for="info1">info1:</label> 
+        <input type="text" name="info1" value="{{ item.info1 }}">
+        <br>
+        <label for="info2">info2:</label>
+        <input type="text" name="info2" value="{{ item.info2 }}">
+        <br>
+        <label for="info3">info3:</label>
+        <input type="text" name="info3" value="{{ item.info3 }}">
+        <br>
+        <label for="post_id">post_id:</label>
+        <input type="text" name="post_id" value="{{ item.post_id }}">
+        <br>
+        <label for="main_post">main_post:</label>
+        <input type="text" name="main_post" value="{{ item.main_post }}">
+        <br>
+        <label for="post_num">post_num:</label>
+        <input type="text" name="post_num" value="{{ item.post_num }}">
+        <br>
+        <label for="date">date:</label>
+        <input type="text" name="date" value="{{ item.date }}">
+        <br>
+        <label for="user">user:</label>
+        <input type="text" name="user" value="{{ item.user }}">
+        <br>
+        <label for="title">title:</label>
+        <input type="text" name="title" value="{{ item.title }}">
+        <br>
+        <label for="text1">text1:</label>
+        <input type="text" class="large_input" name="text1" value="{{ item.text1 }}">
+        <br>
+        <button type="submit">Update</button>
+    </form>
+    <br>
+    <a href="/display">Back to Data</a>
+</body>
+</html>
