@@ -7,7 +7,7 @@ This software application contains a search engine that is capable of easily ret
 # Natural Language Processing (BERT)
 BERT is a natural language processing model designed to comprehend the context of 
 words within a sentence, by using a bidirectional approach to capture the full context 
-of a word based on all of its surroundings. The processing natural language goes into several steps:
+of a word based on all of its surroundings. The natural processing language goes into several steps:
 
 ## Tokenisation 
 Tokenisation is the process of separating large strings of written 
