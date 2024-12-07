@@ -12,5 +12,20 @@ This software application contains a search engine that is capable of easily ret
 - XML (Extensible Markup Language)
 
 # Website Pages
-## Home page
+Shows the pages for used for user-interface.
+## Home Page
 ![image](https://github.com/user-attachments/assets/08771592-ce28-4807-bcc2-9ac83a2bc35d)
+## Upload Page
+![image](https://github.com/user-attachments/assets/06ac8cdf-fcc0-42be-afd9-103db129b8f0)
+## BERT Search Page
+![image](https://github.com/user-attachments/assets/ad56eb68-ef4f-404b-a744-f6865ca1dabc)
+## Keyword Search Page
+![image](https://github.com/user-attachments/assets/3893955e-425b-4553-9d55-7f99d777b03f)
+## Label Search Page
+![image](https://github.com/user-attachments/assets/7ce37008-0abd-4a1c-b5f7-9c1582a48c27)
+## View Data Page
+![image](https://github.com/user-attachments/assets/5c2af4a6-f057-45cb-9ed4-4930831d5154)
+## View Label Data Page
+![image](https://github.com/user-attachments/assets/76ab8cc1-8dc0-4fd2-bcf6-db79911d882e)
+
+
