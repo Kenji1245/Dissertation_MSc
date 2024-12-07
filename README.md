@@ -1,3 +1,2 @@
-#2323
-##32323
+# Aim of the Project
 
