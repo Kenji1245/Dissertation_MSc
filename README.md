@@ -9,6 +9,30 @@ BERT is a natural language processing model designed to comprehend the context o
 words within a sentence, by using a bidirectional approach to capture the full context 
 of a word based on all of its surroundings.
 
+## Tokenisation 
+Tokenisation is the process of separating large strings of written 
+language into smaller parts, known as tokens. 
+## Stop word removal 
+This process involves the removal of words that occur 
+commonly across text data. These words typically have no significance in NLP 
+tasks and are not very discriminative.  
+## Stemming/Lemmatization 
+Stemming involves the process of removing 
+inflected forms of wards and transforming them into their base or root form. 
+Example of the form: “ing”, “s”, “ly” or “ed”. Lemmatization is similar to stemming 
+with minor differences. It involves the process of reducing a word to its root 
+form. An example of this involves: stemming the word “caring” into “care” 
+instead of “car”.  
+## Part of Speech (POS) 
+POS assigns a tag to each word according to its 
+syntactic functions. This process is needed to identify if the given word is a 
+“noun”, “verb”, “adjective”, “preposition”, “conjunction” or “interjection” etc.  
+## Named entity Recognition (NER) 
+NER is a technique which identifies various 
+named entities within the textual data and assigns them within a unique 
+category. These entities can be a person, time, locations, events, products, 
+themes etc. (Wang et al., 2024).
+
 # Tools Used
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
