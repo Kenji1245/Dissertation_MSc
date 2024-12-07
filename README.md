@@ -4,6 +4,11 @@ The aim of the project is to design a NoSQL Database with a user-friendly interf
 # Introduction
 This software application contains a search engine that is capable of easily retrieving unstructured data from a NoSQL Database (MongoDB). This is done by implementing a natural language processing method known as BERT to interpret information within text and retrieve it by query.
 
+# Natural Language Processing (BERT)
+BERT is a natural language processing model designed to comprehend the context of 
+words within a sentence, by using a bidirectional approach to capture the full context 
+of a word based on all of its surroundings.
+
 # Tools Used
 - HTML (Hypertext Markup Language)
 - CSS (Cascading Style Sheets)
