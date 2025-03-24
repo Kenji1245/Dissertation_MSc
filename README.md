@@ -45,13 +45,16 @@ Shows the pages for used for user-interface.
 ## Home Page
 ![image](https://github.com/user-attachments/assets/5a35dbb8-9508-4191-9419-5406fed97fce)
 ## Upload Page
-![image](https://github.com/user-attachments/assets/06ac8cdf-fcc0-42be-afd9-103db129b8f0)
+![image](https://github.com/user-attachments/assets/cb8f8707-ed64-46f2-92f4-b8b79dece310)
+
 Allows users to upload XML file onto the MongoDB database.
 ## BERT Search Page
-![image](https://github.com/user-attachments/assets/ad56eb68-ef4f-404b-a744-f6865ca1dabc)
+![image](https://github.com/user-attachments/assets/8abb9df5-dae3-4f0a-97c5-d956c806a92c)
+
 Allows users to search database using the natural language processing BERT.
 ## Keyword Search Page
-![image](https://github.com/user-attachments/assets/3893955e-425b-4553-9d55-7f99d777b03f)
+![image](https://github.com/user-attachments/assets/9a146d6e-7463-4e58-998f-8d39bb3bb356)
+
 Allows the user to search database using keyword search.
 ## Label Search Page
 ![image](https://github.com/user-attachments/assets/7ce37008-0abd-4a1c-b5f7-9c1582a48c27)
