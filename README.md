@@ -56,14 +56,11 @@ Allows users to search database using the natural language processing BERT.
 ![image](https://github.com/user-attachments/assets/9a146d6e-7463-4e58-998f-8d39bb3bb356)
 
 Allows the user to search database using keyword search.
-## Label Search Page
-![image](https://github.com/user-attachments/assets/7ce37008-0abd-4a1c-b5f7-9c1582a48c27)
-Allows the user to search label data using keyword search.
+
 ## View Data Page
-![image](https://github.com/user-attachments/assets/5c2af4a6-f057-45cb-9ed4-4930831d5154)
+![image](https://github.com/user-attachments/assets/9e931a5f-c793-4005-9cfd-b19c78053d5e)
+
 Allows users to view data on MongoDB.
-## View Label Data Page
-![image](https://github.com/user-attachments/assets/76ab8cc1-8dc0-4fd2-bcf6-db79911d882e)
-Allows users to view label data on MongoDB.
+
 
 
