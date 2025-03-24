@@ -42,10 +42,11 @@ themes etc. (Wang et al., 2024).
 
 # Website Pages
 Shows the pages for used for user-interface.
-## Home Page
-![image](https://github.com/user-attachments/assets/5a35dbb8-9508-4191-9419-5406fed97fce)
+
 ## Upload Page
 ![image](https://github.com/user-attachments/assets/cb8f8707-ed64-46f2-92f4-b8b79dece310)
+
+The upload page allows the user to upload an XML file onto the system, during this process the data from the XML file is stored onto the MongoDB data.
 
 Allows users to upload XML file onto the MongoDB database.
 ## BERT Search Page
