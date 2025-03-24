@@ -43,7 +43,7 @@ themes etc. (Wang et al., 2024).
 # Website Pages
 Shows the pages for used for user-interface.
 ## Home Page
-![image](https://github.com/user-attachments/assets/08771592-ce28-4807-bcc2-9ac83a2bc35d)
+![image](https://github.com/user-attachments/assets/5a35dbb8-9508-4191-9419-5406fed97fce)
 ## Upload Page
 ![image](https://github.com/user-attachments/assets/06ac8cdf-fcc0-42be-afd9-103db129b8f0)
 Allows users to upload XML file onto the MongoDB database.
