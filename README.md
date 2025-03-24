@@ -49,19 +49,20 @@ Shows the pages for used for user-interface.
 The upload page allows the user to upload an XML file onto the system, during this process the data from the XML file is stored onto the MongoDB data.
 
 ## BERT Search Page
-![image](https://github.com/user-attachments/assets/8abb9df5-dae3-4f0a-97c5-d956c806a92c)
+![image](https://github.com/user-attachments/assets/8cc5ec9f-4fb2-4c4e-9d30-694e748b9f40)
 
-The BERT page allows users to search the MongoDB database using natural language processing (BERT). To do this, the user inputs a sentence and selects search. The text from the data and the input from the user goes through a "BERT" process where both are analysed for their contextual meaning and are compared to see how similar they are. The most similar texts are placed on the top of the page in descending order. For example, when the users inputs the word "complain", all texts within the database that have a contextual similarity with the words "complain" will show up on the screen. 
+The BERT page allows users to search the MongoDB database using natural language processing (BERT). To do this, the user inputs a sentence and selects search. The text from the data and the input from the user goes through a "BERT" process where both are analysed for their contextual meaning and are compared to see how similar they are. The most similar texts are placed on the top of the page in descending order. For example, when the users inputs the word "speed", all texts within the database that have a contextual similarity with the words "speed" will show up on the screen. 
 
 ## Keyword Search Page
-![image](https://github.com/user-attachments/assets/9a146d6e-7463-4e58-998f-8d39bb3bb356)
+![image](https://github.com/user-attachments/assets/028cc879-d175-4de2-af94-fd1eab4675ce)
 
-Allows the user to search database using keyword search. For example, when the user inputs the word 
+
+Allows the user to search database using keyword search. For example, when the user inputs the word "complain", all text that contains the word "complain" within the database will show on the screen. 
 
 ## View Data Page
 ![image](https://github.com/user-attachments/assets/9e931a5f-c793-4005-9cfd-b19c78053d5e)
 
-Allows users to view data on MongoDB.
+Allows users to view all data on MongoDB database. 
 
 
 
