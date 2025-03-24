@@ -48,15 +48,15 @@ Shows the pages for used for user-interface.
 
 The upload page allows the user to upload an XML file onto the system, during this process the data from the XML file is stored onto the MongoDB data.
 
-Allows users to upload XML file onto the MongoDB database.
 ## BERT Search Page
 ![image](https://github.com/user-attachments/assets/8abb9df5-dae3-4f0a-97c5-d956c806a92c)
 
-Allows users to search database using the natural language processing BERT.
+The BERT page allows users to search the MongoDB database using natural language processing (BERT). To do this, the user inputs a sentence and selects search. The text from the data and the input from the user goes through a "BERT" process where both are analysed for their contextual meaning and are compared to see how similar they are. The most similar texts are placed on the top of the page in descending order. For example, when the users inputs the word "complain", all texts within the database that have a contextual similarity with the words "complain" will show up on the screen. 
+
 ## Keyword Search Page
 ![image](https://github.com/user-attachments/assets/9a146d6e-7463-4e58-998f-8d39bb3bb356)
 
-Allows the user to search database using keyword search.
+Allows the user to search database using keyword search. For example, when the user inputs the word 
 
 ## View Data Page
 ![image](https://github.com/user-attachments/assets/9e931a5f-c793-4005-9cfd-b19c78053d5e)
